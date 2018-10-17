@@ -18,7 +18,9 @@
 .distinguish{
   z-index: 3;
 }
-
+li:hover {
+  background-color: #F89B4D;
+}
 .pagebar{
   color: black;
 }
