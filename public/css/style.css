@@ -13,14 +13,17 @@
   color: #00ffff;
   font-family: 'Fredericka the Great', cursive;
   position: absolute;
-  align-content: center;
+  align-content: right;
   text-shadow: #fff;
-  opacity: .8;
+  opacity: .7;
   padding: 3%;
   /*background-blend-mode: exclusion;*/
 
 }
+.Fredericka{
+  font-family: 'Fredericka the Great', cursive;
 
+}
 .distinguish{
   z-index: 3;
 }
