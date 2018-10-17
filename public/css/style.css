@@ -1,14 +1,29 @@
 
 
+
+#gradient
+{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
 .aqua{
   color: #00ffff;
 }
 .Fredericka{
   font-family: 'Fredericka the Great', cursive;
 }
+.distinguish{
+  z-index: 3;
+}
 
 .pagebar{
-  color: white;
+  color: black;
+}
+.pop{
+  z-index: 2;
 }
 .upfont{
   font-size: 7;
