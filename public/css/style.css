@@ -11,10 +11,16 @@
 
 .aqua{
   color: #00ffff;
-}
-.Fredericka{
   font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  align-content: center;
+  text-shadow: #fff;
+  opacity: .8;
+  padding: 3%;
+  /*background-blend-mode: exclusion;*/
+
 }
+
 .distinguish{
   z-index: 3;
 }
