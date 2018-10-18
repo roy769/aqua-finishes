@@ -28,7 +28,7 @@
   z-index: 3;
 }
 li:hover {
-  background-color: #F89B4D;
+  background-color: #ffffcc;
 }
 .jello {
   -webkit-animation-name: jello;
