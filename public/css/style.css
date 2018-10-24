@@ -36,6 +36,10 @@ li:hover {
   -webkit-transform-origin: center;
   transform-origin: center;
 }
+.max{
+  max-width: 100%;
+  max-height: auto;
+}
 .pagebar{
   color: black;
 }
