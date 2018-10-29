@@ -1,0 +1,51 @@
+<div class="container-fluid">
+
+  <nav class="nav nav-extended nav-wrapper">
+    <div class="logo">
+      <div class="row">
+        <div class="col center">
+
+
+          <h3 class="for-now right">
+            Vazquez Pool Plastering or Aqua Finishes
+          </h3>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+<form>
+  <div class="form-group">
+    <label for="pointOfContact">Who am I
+     {emojify(':speaking_head:')}
+     speaking too
+   </label>
+   <input type="text" class="form-control" id="inputFullName" placeholder=" Full Name"/>
+
+    <label for="exampleInputEmail">Whats the best
+      {emojify(':e-mail:')}
+      email to get back to you at?</label>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+
+    <label for="zipcode" alt="zip">What's the zipcode for the desired aqua finishing site {emojify(':droplet:')}
+    </label>
+    <input type="integer" class="form-control" id="inputZipcode" placeholder="Enter Zipcode"/>
+
+    <label for="imageUpload" alt="imageUploads">Please upload images of the job at hand </label>
+    <input type="file" onChange={this.fileSelectedHandler}/>
+    <button onClick={this.fileUploadHandler}> Upload </button>
+  </div>
+
+
+
+
+  <div class="dropdown-divider"></div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+</div>
